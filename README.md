@@ -2,7 +2,7 @@
 #### Video Demo:  <URL HERE>
 
 ## Description
-My project is an ***interactive News PDF generator***. which will use CNN as source.
+My project is an ***interactive News PDF generator***. The program will scrape the CNN news website and will create a PDF copy of the news.
 This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
 Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
 
