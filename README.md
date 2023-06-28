@@ -5,10 +5,10 @@
 #### This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
 #### Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
 
-![Screenshot- Project Greeting & Showing News Topics menu](docs/ProjectRun_1.jpg?raw=true " News Topics menu")
-![Screenshot- showing all the headlines for the selected topic](docs/ProjectRun_2.jpg?raw=true "headlines for the selection")
-![Screenshot- Responce from project when successfully completed.](docs/ProjectRun_3.jpg?raw=true "successfully completed message.")
-![Screenshot- Output file.](NewsPaper.pdf,row=true "Output file")
+![Screenshot- Project Greeting & Showing News Topics menu](Screenshots/ProjectRun_1.jpg?raw=true " News Topics menu")
+![Screenshot- showing all the headlines for the selected topic](Screenshots/ProjectRun_2.jpg?raw=true "headlines for the selection")
+![Screenshot- Responce from project when successfully completed.](Screenshots/ProjectRun_3.jpg?raw=true "successfully completed message.")
+![Screenshot- Output file.](NewsPaper.jpg,row=true "Output file")
 
 
 ## Environment Setup
@@ -31,7 +31,7 @@ if you want to change the output file name you can do it from .env file
 OutputFilename = "FilenameYouWant.pdf"
 ```
 
-## how this work?
+## how this works?
 #### When project is starts running it will fetch the **menu items** from the site and display on the terminal.
 #### and will ask you to choose one, by entering its corresponding SrNo.
 ```
