@@ -6,7 +6,11 @@
 #### This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
 #### Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
 
-![<>Image link from repository-Final Run Output]
+![Screenshot: Project Greeting & Showing News Topics menu](docs/ProjectRun_1.jpg?raw=true "Optional Title")
+![Screenshot:showing all the headlines for the selected topic](docs/ProjectRun_2.jpg?raw=true "Optional Title")
+![Screenshot: Responce from project when successfully completed.](docs/ProjectRun_3.jpg?raw=true "Optional Title")
+![Screenshot: Output file.](NewsPaper.pdf)
+
 
 ## Environment Setup
 #### Rename .env file
