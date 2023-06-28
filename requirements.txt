@@ -1,0 +1,7 @@
+FPDF2
+dotenv
+inspect
+requests
+tabulate
+bs4 import BeautifulSoup
+html.parser import HTMLParser
