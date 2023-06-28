@@ -1,35 +1,29 @@
 # News On PDF
 #### Video Demo:  <URL HERE>
-#### Description:
 
 #### My project is an ***interactive News PDF generator***. which will use CNN as source.
 #### This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
 #### Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
 
-![Screenshot: Project Greeting & Showing News Topics menu](docs/ProjectRun_1.jpg?raw=true "Optional Title")
-![Screenshot:showing all the headlines for the selected topic](docs/ProjectRun_2.jpg?raw=true "Optional Title")
-![Screenshot: Responce from project when successfully completed.](docs/ProjectRun_3.jpg?raw=true "Optional Title")
-![Screenshot: Output file.](NewsPaper.pdf)
+![Screenshot- Project Greeting & Showing News Topics menu](docs/ProjectRun_1.jpg?raw=true " News Topics menu")
+![Screenshot- showing all the headlines for the selected topic](docs/ProjectRun_2.jpg?raw=true "headlines for the selection")
+![Screenshot- Responce from project when successfully completed.](docs/ProjectRun_3.jpg?raw=true "successfully completed message.")
+![Screenshot- Output file.](NewsPaper.pdf,row=true "Output file")
 
 
 ## Environment Setup
 #### Rename .env file
-```
-Please rename "rename.env" file to ".env" only
+#### Please rename "renameThisFile.env" file to ".env" only
+#### The file name should only .env
 
-as the new file name should only .env
-
-```
 
 #### To setup your environment run the code, first install all the requirements:
 ```
 pip3 install -r requirements.txt
-
 ```
 #### Once the requirements are installed. how you can run the code saying following in the terminal window.
 ```
 python project.py
-
 ```
 
 if you want to change the output file name you can do it from .env file
