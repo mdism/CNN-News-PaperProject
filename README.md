@@ -6,10 +6,19 @@ My project is an ***interactive News PDF generator***. which will use CNN as sou
 This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
 Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
 
+step-1: Greeting & Showing News Topics menu
 ![Screenshot- Project Greeting & Showing News Topics menu](Screenshots/ProjectRun_1.jpg?raw=true " News Topics menu")
+
+step-2: Showing all the headlines for the selected topic
 ![Screenshot- showing all the headlines for the selected topic](Screenshots/ProjectRun_2.jpg?raw=true "headlines for the selection")
-![Screenshot- Responce from project when successfully completed.](Screenshots/ProjectRun_3.jpg?raw=true "successfully completed message.")
-![Screenshot- Output file.](Screenshots/NewsPaper.jpg,row=true "Output file")
+
+Step3: Successfully completion Response.
+![Screenshot- Response from project when successfully completed.](Screenshots/ProjectRun_3.jpg?raw=true "successfully completed message.")
+
+Output file:
+
+![Screenshot- Response from project when successfully completed.](Screenshots/NewsPaper.jpg?raw=true "Output file.")
+
 
 
 ## Environment Setup
@@ -86,8 +95,8 @@ Select News by entering its number:
 
 ````
 You can now select by its headline.
-once curresponding Sr.No is entered for a headline. the PDF file on the root directory will be creadted.
-![final News paper link or image]<>
+once corresponding Sr.No is entered for a headline. the PDF file on the root directory will be created as shown in the output file screenshot above.
+
 
 ## Python version Supported
 this project is created on ***Python 3.9.16*** python version
@@ -100,5 +109,5 @@ for now this project only support CNN news website.
 Feel free to fork if you like to update this project.
 
 ## Disclaimer
-This project is undertaken solely for learning purposes, with no intention to utilize any documents, material or news obtained from any news’s website for reproduction or mination elsewhere.
+This project is undertaken solely for learning purposes, with no intention to utilize any documents, material or news obtained from any news’s website for reproduction or mention elsewhere.
 
