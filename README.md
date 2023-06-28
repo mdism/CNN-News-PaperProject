@@ -9,7 +9,7 @@ Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(htt
 ![Screenshot- Project Greeting & Showing News Topics menu](Screenshots/ProjectRun_1.jpg?raw=true " News Topics menu")
 ![Screenshot- showing all the headlines for the selected topic](Screenshots/ProjectRun_2.jpg?raw=true "headlines for the selection")
 ![Screenshot- Responce from project when successfully completed.](Screenshots/ProjectRun_3.jpg?raw=true "successfully completed message.")
-![Screenshot- Output file.](NewsPaper.jpg,row=true "Output file")
+![Screenshot- Output file.](Screenshots/NewsPaper.jpg,row=true "Output file")
 
 
 ## Environment Setup
