@@ -4,7 +4,7 @@
 ## Description
 My project is an ***interactive News PDF generator***. The program will scrape the CNN news website and will create a PDF copy of the news.
 This Application will create a PDF copy of the news published on CNN news portal 📰 as per user selection.
-Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2(https://pypi.org/project/fpdf2/)], [tabulate](https://pypi.org/project/tabulate/)
+Built with [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), [FPDF2](https://pypi.org/project/fpdf2/), [tabulate](https://pypi.org/project/tabulate/)
 
 step-1: Greeting & Showing News Topics menu
 ![Screenshot- Project Greeting & Showing News Topics menu](Screenshots/ProjectRun_1.jpg?raw=true " News Topics menu")
@@ -12,7 +12,7 @@ step-1: Greeting & Showing News Topics menu
 step-2: Showing all the headlines for the selected topic
 ![Screenshot- showing all the headlines for the selected topic](Screenshots/ProjectRun_2.jpg?raw=true "headlines for the selection")
 
-Step3: Successfully completion Response.
+Step3: Successfully complete Response.
 ![Screenshot- Response from project when successfully completed.](Screenshots/ProjectRun_3.jpg?raw=true "successfully completed message.")
 
 Output file:
@@ -31,7 +31,7 @@ To setup your environment run the code, first install all the requirements:
 ```
 pip3 install -r requirements.txt
 ```
-Once the requirements are installed. how you can run the code saying following in the terminal window.
+Once the requirements are installed. how you can run the code saying the following in the terminal window.
 ```
 python project.py
 ```
@@ -42,7 +42,7 @@ OutputFilename = "FilenameYouWant.pdf"
 ```
 
 ## how this works?
-When project is starts running it will fetch the **menu items** from the site and display on the terminal.
+When the project starts running it will fetch the **menu items** from the site and display on the terminal.
 and will ask you to choose one, by entering its corresponding SrNo.
 ```
 
@@ -70,12 +70,12 @@ and will ask you to choose one, by entering its corresponding SrNo.
 +----------+---------------+
 |       10 | Sports        |
 +----------+---------------+
- *********** Enter Sr. No of corresponding menu item, to tel me what you’ve selected. *********** 
+ *********** Enter Sr. No of the corresponding menu item, to tell me what you’ve selected. *********** 
 Select News by entering its number: <Your Choose Here>
 
 ```
 
-Once you will select any topic from menu and press enter, the program will go and fetch all the **Headlines** related to that topic from CNN Website.
+Once you will select any topic from the menu and press enter, the program will go and fetch all the **Headlines** related to that topic from CNN Website.
 And all the headlines will be displayed on the terminal like above.
 ````
 Select News by entering its number: 2
@@ -90,12 +90,12 @@ Select News by entering its number: 2
 |      3 | Russian missile attack hits Kramatorsk city center, killing at least four, say Ukrainian officials                                       |
 +--------+------------------------------------------------------------------------------------------------------------------------------------------+
  
-*********** Enter Sr. No of corresponding menu item, to tel me what you’ve selected. ***********
+*********** Enter Sr. No of a corresponding menu item, to tell me what you’ve selected. ***********
 Select News by entering its number:
 
 ````
 You can now select by its headline.
-once corresponding Sr.No is entered for a headline. the PDF file on the root directory will be created as shown in the output file screenshot above.
+once the corresponding Sr.No is entered for a headline. the PDF file on the root directory will be created as shown in the output file screenshot above.
 
 
 ## Python version Supported
@@ -103,9 +103,14 @@ this project is created on ***Python 3.9.16*** python version
 
 ## Notes
 🚪 Any time if you want to stop the application enter *0(zero)* or *any negative number*.
-⚠️ While fetching news details from website if any unexpected error happens it will inform about the same and ask to try again.
+⚠️ While fetching news details from a website if any unexpected error happens it will inform about the same and ask to try again.
 but the error out new will be removed from the menu. 😀
-for now this project only support CNN news website.
+for now, this project only supports CNN news website.
+
+### Disclaimer
+# This project is undertaken solely for learning purposes, with no intention to utilize any documents, material or news obtained from any news’s website for reproduction or mination elsewhere.
+
+
 Feel free to fork if you like to update this project.
 
 ## Disclaimer
