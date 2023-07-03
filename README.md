@@ -1,5 +1,5 @@
 # News On PDF
-#### Video Demo:  <URL HERE>
+#### Video:  [On Youtube: https://youtu.be/Ru3h80B-CH0](https://youtu.be/Ru3h80B-CH0)
 
 ## Description
 My project is an ***interactive News PDF generator***. The program will scrape the CNN news website and will create a PDF copy of the news.
